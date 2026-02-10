@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Log Analyzer | Vaihit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📊 Log Analyzer</h1>
+
+    <textarea id="logInput" placeholder="Paste log data here"></textarea>
+    <button onclick="analyze()">Analyze</button>
+
+    <div class="result">
+      <p>Total Requests: <span id="total"></span></p>
+      <p>Most Frequent IP: <span id="ip"></span></p>
+    </div>
+
+    <footer>Built under <strong>Vaihit</strong></footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
